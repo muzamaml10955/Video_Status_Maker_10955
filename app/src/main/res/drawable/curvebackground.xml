@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:insetLeft="4dp"
+    android:insetTop="6dp"
+    android:insetRight="4dp"
+    android:insetBottom="6dp">
+    <ripple android:color="?attr/colorControlHighlight"
+        tools:targetApi="lollipop">
+        <item>
+            <shape xmlns:android="http://schemas.android.com/apk/res/android"
+                android:shape="rectangle">
+                <stroke android:width="3dp"
+                    android:color="#ff000000"
+                    />
+                <gradient
+                    android:startColor="@color/startcolorgradient"
+                    android:centerColor="@color/startcolorgradient"
+
+
+
+
+                    android:endColor="@color/startcolorgradient"
+
+                    android:type="sweep" />
+                <corners android:radius="16dp"/>
+
+            </shape>
+        </item>
+    </ripple>
+</inset>

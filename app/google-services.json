@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513132300161",
+    "project_id": "video-status-maker-3bd7c",
+    "storage_bucket": "video-status-maker-3bd7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513132300161:android:27f5d7caede467f73dca80",
+        "android_client_info": {
+          "package_name": "com.inspirationappsstudio.videostatusmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513132300161-tf3m1hcg420t17i79haaprr2itl3vmod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGWrNFSe_ytvHs9Ymr5O6YzFtbMLu0srE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513132300161-tf3m1hcg420t17i79haaprr2itl3vmod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

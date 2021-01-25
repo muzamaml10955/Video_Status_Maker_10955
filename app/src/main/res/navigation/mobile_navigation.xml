@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.inspirationappsstudio.videostatusmaker.ui.Home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_privacypolicy"
+        android:name="com.inspirationappsstudio.videostatusmaker.ui.PrivacyPolicy.provacypolicy"
+        android:label="@string/menu_privacypolicy"
+        tools:layout="@layout/fragment_privacypolicy" />
+
+    <fragment
+        android:id="@+id/nav_rateus"
+        android:name="com.inspirationappsstudio.videostatusmaker.ui.Rateus.RateusFragment"
+        android:label="@string/menu_rateus"
+        tools:layout="@layout/fragment_rateus" />
+
+
+    <fragment
+        android:id="@+id/nav_shareapp"
+        android:name="com.inspirationappsstudio.videostatusmaker.ui.shareapp.shareappFragment"
+        android:label="@string/menu_shareapp"
+        tools:layout="@layout/fragment_rateus" />
+    <fragment
+        android:id="@+id/nav_moreapp"
+        android:name="com.inspirationappsstudio.videostatusmaker.ui.moreapps.moreappsFragment"
+        android:label="@string/menu_moreapp"
+        tools:layout="@layout/fragment_moreapps" />
+
+</navigation>
